@@ -9,7 +9,7 @@ function App() {
       <label For="name">Enter your name:</label>
       <br/>
       <input type="text" id='name' value={name} onChange={(e)=>setname(e.target.value)} />
-      {name && <p>Hello {name}!</p>}
+      {name && <h1>Hello {name}!</h1>}
      
     </div>
   );
