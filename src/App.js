@@ -2,6 +2,7 @@ import {useState} from 'react';
 import './App.css';
 
 function App() {
+  // jfik/
   const[name,setname]=useState('');
   return (
     <div >
